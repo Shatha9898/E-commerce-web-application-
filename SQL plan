@@ -1,0 +1,6 @@
+Create Table Customers(
+ID int NOT NULL,
+FName varchar(33) NOT NULL,
+LName varchar(33) NOT NULL,
+Age int, CHECK (Age>=18)
+);
